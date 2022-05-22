@@ -62,7 +62,7 @@ plt.plot(x, y, color='red')
 plt.title('Frequency (arbitrary units) vs IQ')
 plt.xlabel('IQ')
 plt.tick_params(left=False, right=False, labelleft=False, labelbottom=True, bottom=True)
-# plt.show
+# plt.show()
 
 iq_user = float(input('Kindly insert your IQ so the scouter will estimate your power level: '))
 i_user = scp.integrate.quad(g_func, 0.0, iq_user)[0]
@@ -87,7 +87,7 @@ elif 7 <= power_level_log < 9:
           'and show who is the best in the universe!')
 elif 9 <= power_level_log < 11:
     print("Congratulations! You are at the Buu Saga! Don't forget your chocolate bar and try to impede Babidi's"
-          "evil plan of resurrecting his ancient demon!")
-elif 11 <= power_level_log < 13:
+          " evil plan of resurrecting his ancient demon!")
+else:
     print("Congratulations! You are at the Super Saga! Now that you've reached the level of a deity,"
           " even Lord Beerus and Whis respect you!")
