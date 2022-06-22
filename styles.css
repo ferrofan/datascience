@@ -1,0 +1,66 @@
+p {
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: 'Knewave', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+color: black;
+font-family: 'Fjalla One', sans-serif;
+font-weight: normal;
+font-style: normal;
+font-size: 20px;
+text-align: center;
+}
+
+h3 {
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+}
+
+.center {
+display: block;
+width: 500px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+a {
+color: navy;
+font-family: 'Fjalla One', sans-serif;
+font-weight: normal;
+font-style: normal;
+font-size: 20px;
+text-align: justify;
+}
+
+form {
+  text-align: center;
+}
+
+div {
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  }
+  
